@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0AE97F1E40C16C00F226AE /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0AE97E1E40C16C00F226AE /* HomeScreenViewController.swift */; };
+		CF0AE9811E40C1B700F226AE /* GettingQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0AE9801E40C1B700F226AE /* GettingQRCodeViewController.swift */; };
 		FFF1A7781E3F447500A2FFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A7771E3F447500A2FFEE /* AppDelegate.swift */; };
 		FFF1A77A1E3F447500A2FFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A7791E3F447500A2FFEE /* ViewController.swift */; };
 		FFF1A77D1E3F447500A2FFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF1A77B1E3F447500A2FFEE /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF0AE97E1E40C16C00F226AE /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		CF0AE9801E40C1B700F226AE /* GettingQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingQRCodeViewController.swift; sourceTree = "<group>"; };
 		FFF1A7741E3F447500A2FFEE /* Agree-n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agree-n.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF1A7771E3F447500A2FFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF1A7791E3F447500A2FFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				FFF1A77E1E3F447500A2FFEE /* Assets.xcassets */,
 				FFF1A7801E3F447500A2FFEE /* LaunchScreen.storyboard */,
 				FFF1A7831E3F447500A2FFEE /* Info.plist */,
+				CF0AE97E1E40C16C00F226AE /* HomeScreenViewController.swift */,
+				CF0AE9801E40C1B700F226AE /* GettingQRCodeViewController.swift */,
 			);
 			path = "Agree-n";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFF1A77A1E3F447500A2FFEE /* ViewController.swift in Sources */,
+				CF0AE9811E40C1B700F226AE /* GettingQRCodeViewController.swift in Sources */,
 				FFF1A7781E3F447500A2FFEE /* AppDelegate.swift in Sources */,
+				CF0AE97F1E40C16C00F226AE /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
