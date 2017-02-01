@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,24 +22,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Carrello" translatesAutoresizingMaskIntoConstraints="NO" id="rpC-HU-JyF">
-                                <rect key="frame" x="0.0" y="28" width="375" height="639"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="rpC-HU-JyF" secondAttribute="height" multiplier="125:213" id="CVg-yM-BoE"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Righe" translatesAutoresizingMaskIntoConstraints="NO" id="z1Z-g2-Enn">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Agreen4" translatesAutoresizingMaskIntoConstraints="NO" id="rQc-HF-Umy">
-                                <rect key="frame" x="67" y="128" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spesa" translatesAutoresizingMaskIntoConstraints="NO" id="rpC-HU-JyF">
+                                <rect key="frame" x="60" y="406" width="254" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gb9-uI-n8I">
+                                <rect key="frame" x="16" y="257" width="343" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33333333333333331" green="0.69803921568627447" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="xPP-Oj-B3K">
+                                <rect key="frame" x="81" y="171" width="213" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6yG-cA-zwy">
+                                        <rect key="frame" x="0.0" y="0.0" width="213" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="313" id="8hV-Ff-FaM"/>
+                                            <constraint firstAttribute="width" constant="213" id="9D6-h2-jRN"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="HE3-Lf-XQs"/>
+                                            <constraint firstAttribute="height" constant="30" id="Y7W-c8-i5N"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tfw-yQ-AvR">
+                                        <rect key="frame" x="0.0" y="39" width="213" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Ok6-68-Kq5"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="313" id="pcV-9J-pCL"/>
+                                            <constraint firstAttribute="width" constant="213" id="s5Y-5m-7jE"/>
+                                            <constraint firstAttribute="height" constant="30" id="zDd-MZ-OAo"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PandaDefinitivo" translatesAutoresizingMaskIntoConstraints="NO" id="B9F-RF-WaU">
+                                <rect key="frame" x="143" y="75" width="88" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="rpC-HU-JyF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="AMo-1U-6zR"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rpC-HU-JyF" secondAttribute="bottom" id="hKe-r3-7ZJ"/>
-                            <constraint firstItem="rpC-HU-JyF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iN5-el-yjh"/>
-                            <constraint firstAttribute="trailing" secondItem="rpC-HU-JyF" secondAttribute="trailing" id="sBt-hn-Zdd"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -196,8 +229,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Agreen4" width="525" height="302"/>
-        <image name="Carrello" width="309" height="400"/>
+        <image name="PandaDefinitivo" width="556" height="556"/>
         <image name="QrCode" width="321" height="321"/>
+        <image name="Righe" width="1360" height="1920"/>
+        <image name="spesa" width="300" height="300"/>
     </resources>
 </document>
