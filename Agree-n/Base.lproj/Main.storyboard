@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bTP-iY-cmw">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -85,7 +85,7 @@
             </objects>
             <point key="canvasLocation" x="-212" y="1600"/>
         </scene>
-        <!--Home-->
+        <!--Home Screen View Controller-->
         <scene sceneID="i2U-2H-e3B">
             <objects>
                 <viewController id="isq-Ld-snX" customClass="HomeScreenViewController" customModule="Agree_n" customModuleProvider="target" sceneMemberID="viewController">
@@ -171,7 +171,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="fQM-Cf-Mdw"/>
+                    <navigationItem key="navigationItem" id="fQM-Cf-Mdw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="03j-jH-fSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -245,7 +245,7 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
                                 <rect key="frame" x="0.0" y="28" width="375" height="110"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lbk-aT-CCh" id="KX5-ha-a20">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="109.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W3p-tR-MAC">
@@ -309,12 +309,30 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sio-pm-SnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2174" y="842"/>
+            <point key="canvasLocation" x="2172" y="820"/>
+        </scene>
+        <!--Login Controller-->
+        <scene sceneID="lxe-5k-yOf">
+            <objects>
+                <viewController id="bTP-iY-cmw" customClass="LoginController" customModule="Agree_n" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dxq-Bh-8cV"/>
+                        <viewControllerLayoutGuide type="bottom" id="AR8-ee-eoD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8x9-0h-g6e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YFN-VF-tTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-212" y="59"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iXS-J2-x4n">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="29g-Tz-frP" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="HomeScreenViewController" automaticallyAdjustsScrollViewInsets="NO" id="29g-Tz-frP" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VJk-4w-YtM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
