@@ -9,10 +9,15 @@
 import UIKit
 
 class HomeScreenViewController: UIViewController {
+    
+    var userLogged = "user"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        /* Il titolo va modificato in base al nome utente*/
+        self.navigationItem.title = "Ciao " + self.userLogged
         
         let checkForAllSampleProducts = self.loadProducts()
         /* Se si vuole aggiungere un prodotto di esempio cambiare "==" -> "!=" .
