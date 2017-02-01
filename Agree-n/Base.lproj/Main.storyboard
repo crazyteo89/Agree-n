@@ -194,12 +194,6 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
                                         <constraint firstAttribute="bottomMargin" secondItem="W3p-tR-MAC" secondAttribute="bottom" constant="1" id="y8W-uO-tsv"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="locationLabel" destination="gJ7-mK-76y" id="TVx-yr-xKi"/>
-                                    <outlet property="nameLabel" destination="Shb-8Z-ADv" id="tYe-c7-5KT"/>
-                                    <outlet property="productImage" destination="W3p-tR-MAC" id="meQ-M3-ZOs"/>
-                                    <outlet property="typeLabel" destination="7el-yB-f8J" id="7w7-8a-5If"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
