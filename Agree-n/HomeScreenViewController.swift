@@ -17,7 +17,8 @@ class HomeScreenViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         /* Il titolo va modificato in base al nome utente*/
-        self.navigationItem.title = "Ciao " + self.userLogged
+        //self.navigationItem.title = "Ciao " + self.userLogged
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Sign out", style: .plain, target: self, action: #selector(handleSignOut))
         
         let checkForAllSampleProducts = self.loadProducts()
         /* Se si vuole aggiungere un prodotto di esempio cambiare "==" -> "!=" .
@@ -42,6 +43,17 @@ class HomeScreenViewController: UIViewController {
          }*/
 
     }
+    
+    func handleSignOut() {
+        UserDefaults.standard.setIsLoggedIn(value: false)
+        
+        UserDefaults.standard.set(false, forKey: "isLoggedIn")
+        UserDefaults.standard.synchronize()
+        
+        let loginController = LoginController()
+        present(loginController, animated: true, completion: nil)
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
