@@ -83,6 +83,30 @@
             </objects>
             <point key="canvasLocation" x="-945" y="820"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="aeS-7a-8d1">
+            <objects>
+                <viewController id="Pvm-5t-FQW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ef8-5L-8u5"/>
+                        <viewControllerLayoutGuide type="bottom" id="qkL-ix-ooq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wx7-vM-NHt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Righe" translatesAutoresizingMaskIntoConstraints="NO" id="y3g-h7-E0f">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lPS-ME-ag3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="584.79999999999995" y="123.68815592203899"/>
+        </scene>
         <!--Home-->
         <scene sceneID="i2U-2H-e3B">
             <objects>
@@ -110,15 +134,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9P-uM-Ta2">
+                                <rect key="frame" x="112" y="318" width="150" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="6hY-ES-mD6" kind="show" identifier="GettingQRCode" id="wrJ-hu-fLD"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a48-0l-GWh">
                                 <rect key="frame" x="16" y="386" width="69" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BILL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eu8-c8-zLd">
-                                <rect key="frame" x="290" y="394" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -139,7 +163,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOUR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6F-HE-yFc">
-                                <rect key="frame" x="277" y="356" width="71" height="30"/>
+                                <rect key="frame" x="288" y="356" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -148,18 +172,24 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQj-2z-lX9">
                                 <rect key="frame" x="34" y="509" width="142" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Pvm-5t-FQW" kind="show" id="upm-1D-gIB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17B-Jv-1W8">
                                 <rect key="frame" x="204" y="509" width="155" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9P-uM-Ta2">
-                                <rect key="frame" x="112" y="318" width="150" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="6hY-ES-mD6" kind="show" identifier="GettingQRCode" id="wrJ-hu-fLD"/>
+                                    <segue destination="D9f-OK-0xF" kind="show" id="V3Z-0p-V25"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BILL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eu8-c8-zLd">
+                                <rect key="frame" x="301" y="394" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -180,12 +210,32 @@
                     <view key="view" contentMode="scaleToFill" id="e9t-Q8-bos">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Righe" translatesAutoresizingMaskIntoConstraints="NO" id="LDj-Q8-fxB">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gabbiano" translatesAutoresizingMaskIntoConstraints="NO" id="cC8-KV-F0H">
+                                <rect key="frame" x="0.0" y="64" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JgE-AR-Vdt">
+                                <rect key="frame" x="0.0" y="318" width="375" height="349"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Per disastri petroliferi si intendono disastri ambientali causati dal rilascio di grandi quantità di petrolio nell'ambiente.
+
+In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (in inglese oil spills ed in ambito specialistico italiano frequentemente traslato erroneamente in spillamento), compromette gravemente l'ambiente terrestre. Infatti il greggio ha un peso specifico minore dell'acqua, per cui inizialmente forma una pellicola impermeabile all'ossigeno sopra il pelo libero dell'acqua, causando oltre agli evidenti danni per fenomeni fisici e tossici diretti alla macrofauna, un'anaerobiosi che uccide il plancton. La successiva precipitazione sul fondale replica l'effetto sugli organismi bentonici. La bonifica dell'ambiente danneggiato richiede mesi o anni.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6o-NA-m0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="576" y="1577"/>
+            <point key="canvasLocation" x="584.79999999999995" y="1574.6626686656673"/>
         </scene>
         <!--GettingQR Code View Controller-->
         <scene sceneID="oMJ-nD-Woc">
@@ -311,6 +361,7 @@
         <image name="PandaDefinitivo" width="556" height="556"/>
         <image name="Rating3" width="642" height="367"/>
         <image name="Righe" width="1360" height="1920"/>
+        <image name="gabbiano" width="720" height="460"/>
         <image name="spesa" width="300" height="300"/>
     </resources>
 </document>
