@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPS-ME-ag3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="584.79999999999995" y="123.68815592203899"/>
+            <point key="canvasLocation" x="-212" y="1600"/>
         </scene>
         <!--Home-->
         <scene sceneID="i2U-2H-e3B">
@@ -194,7 +194,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JgE-AR-Vdt">
-                                <rect key="frame" x="0.0" y="288" width="375" height="349"/>
+                                <rect key="frame" x="0.0" y="288" width="375" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Per disastri petroliferi si intendono disastri ambientali causati dal rilascio di grandi quantità di petrolio nell'ambiente.
@@ -209,7 +209,7 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6o-NA-m0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="584.79999999999995" y="1574.6626686656673"/>
+            <point key="canvasLocation" x="1385" y="1600"/>
         </scene>
         <!--GettingQR Code View Controller-->
         <scene sceneID="oMJ-nD-Woc">
@@ -230,7 +230,7 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JR8-jU-sUl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1386" y="842"/>
+            <point key="canvasLocation" x="1385" y="820"/>
         </scene>
         <!--After Scanned View Controller-->
         <scene sceneID="WYS-WH-VXs">
