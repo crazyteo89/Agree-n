@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="29g-Tz-frP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -37,6 +37,9 @@
                                 <state key="normal" title="Send">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="29g-Tz-frP" kind="show" id="L4x-C6-IqS"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="xPP-Oj-B3K">
                                 <rect key="frame" x="81" y="171" width="213" height="69"/>
@@ -78,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-212" y="132.68365817091455"/>
+            <point key="canvasLocation" x="-212" y="153"/>
         </scene>
         <!--Home-->
         <scene sceneID="i2U-2H-e3B">
@@ -92,23 +95,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CWS16Graphic" translatesAutoresizingMaskIntoConstraints="NO" id="IKa-xG-bVv">
-                                <rect key="frame" x="0.0" y="64" width="375" height="190"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pagina1" translatesAutoresizingMaskIntoConstraints="NO" id="06O-dk-ITn">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rating3" translatesAutoresizingMaskIntoConstraints="NO" id="l9Y-CG-tTH">
+                                <rect key="frame" x="0.0" y="107" width="318" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't eat others, Eat for others" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGP-vV-BQR">
-                                <rect key="frame" x="16" y="262" width="343" height="36"/>
+                                <rect key="frame" x="16" y="287" width="343" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="pDd-li-XF4">
-                                <rect key="frame" x="112" y="306" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9P-uM-Ta2">
-                                <rect key="frame" x="112" y="306" width="150" height="150"/>
+                                <rect key="frame" x="112" y="352" width="150" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="6hY-ES-mD6" kind="show" identifier="GettingQRCode" id="wrJ-hu-fLD"/>
@@ -228,7 +231,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="29g-Tz-frP" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="VJk-4w-YtM">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VJk-4w-YtM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -243,9 +246,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CWS16Graphic" width="785" height="500"/>
+        <image name="Pagina1" width="750" height="1334"/>
         <image name="PandaDefinitivo" width="556" height="556"/>
-        <image name="QR_code" width="400" height="400"/>
+        <image name="Rating3" width="642" height="367"/>
         <image name="Righe" width="1360" height="1920"/>
         <image name="spesa" width="300" height="300"/>
     </resources>
