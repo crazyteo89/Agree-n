@@ -43,6 +43,14 @@ class LoginCell: UICollectionViewCell {
         return button
     }()
     
+    lazy var signUpButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.backgroundColor = UIColor.init(red: 87.0/255.0, green: 175.0/255.0, blue: 0.0/255.0, alpha: 1.0)
+        button.setTitle("Sign up", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        return button
+    }()
+    
     weak var delegate: LoginControllerDelegate?
     
     func handleLogin() {
@@ -56,6 +64,7 @@ class LoginCell: UICollectionViewCell {
         addSubview(emailTextField)
         addSubview(passwordTextField)
         addSubview(loginButton)
+        addSubview(signUpButton)
         
         _ = logoImageView.anchor(centerYAnchor, left: nil, bottom: nil, right: nil, topConstant: -200, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 130, heightConstant: 130)
         logoImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
@@ -65,6 +74,8 @@ class LoginCell: UICollectionViewCell {
         _ = passwordTextField.anchor(emailTextField.bottomAnchor, left: leftAnchor, bottom: nil, right: rightAnchor, topConstant: 16, leftConstant: 32, bottomConstant: 0, rightConstant: 32, widthConstant: 0, heightConstant: 50)
         
         _ = loginButton.anchor(passwordTextField.bottomAnchor, left: leftAnchor, bottom: nil, right: rightAnchor, topConstant: 16, leftConstant: 32, bottomConstant: 0, rightConstant: 32, widthConstant: 0, heightConstant: 50)
+        
+        _ = signUpButton.anchor(loginButton.bottomAnchor, left: leftAnchor, bottom: nil, right: rightAnchor, topConstant: 16, leftConstant: 32, bottomConstant: 0, rightConstant: 32, widthConstant: 0, heightConstant: 50)
  
     }
     
