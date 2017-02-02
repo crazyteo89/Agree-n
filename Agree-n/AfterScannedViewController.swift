@@ -11,6 +11,7 @@ import UIKit
 class AfterScannedViewController: UITableViewController {
     @IBOutlet var ratingToShow: UILabel!
     @IBOutlet var billToShow: UILabel!
+    @IBOutlet var priceToShow: UILabel!
     
     var billNumber = "123456789123456789"
     var billScanned = "no"
@@ -37,16 +38,16 @@ class AfterScannedViewController: UITableViewController {
             }
         }
         for value in self.productPrice {
-//            let provaEstratta = value
-//            let prova = (Float)(provaEstratta)
-//            self.billPrice += [prova]
+            var estractedPrice = value
+            estractedPrice = value.replacingOccurrences(of: "€", with: "")
+            self.billPrice += [(Float)(estractedPrice)!]
         }
         var totalBillRating: Float = 0.0
         for value in self.billPrice {
             totalBillRating += value
         }
-        totalBillRating = totalBillRating / (Float)(self.billPrice.count)
-        self.ratingToShow.text = (String)(totalBillRating)
+        
+        self.priceToShow.text = (String)(totalBillRating)
         
     }
     
