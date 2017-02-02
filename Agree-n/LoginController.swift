@@ -33,9 +33,9 @@ class LoginController: UIViewController, UICollectionViewDataSource, UICollectio
     let pages: [Page] = {
         let firstPage = Page(title: "Share a great listen", message: "It's free to send your books to the people in your life. Every recipient's first book is on us.", imageName: "page1")
         
-        let secondPage = Page(title: "Know your World", message: "Tap the More menu", imageName: "page2")
+        let secondPage = Page(title: "Know your World", message: "Tap the More Menu to know important information", imageName: "page2")
         
-        let thirdPage = Page(title: "Send from the player", message: "Tap the More menu in the upper corner. Choose \"Send this Book\"", imageName: "page3")
+        let thirdPage = Page(title: "Save your bills", message: "Tap the History Menu to see all your bills", imageName: "page3")
         
         return [firstPage, secondPage, thirdPage]
     }()
