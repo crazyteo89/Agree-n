@@ -27,17 +27,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="percentuale" translatesAutoresizingMaskIntoConstraints="NO" id="GWk-Zm-n4T">
-                                <rect key="frame" x="133" y="271" width="110" height="56"/>
+                                <rect key="frame" x="68" y="271" width="125" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WZV-7d-23l">
-                                <rect key="frame" x="16" y="372" width="343" height="238"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Green Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJD-ls-nN4">
+                                <rect key="frame" x="201" y="289" width="126" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -60,8 +59,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="acqua_nestlè" translatesAutoresizingMaskIntoConstraints="NO" id="e3Q-wC-Ypx">
-                                <rect key="frame" x="166" y="250" width="42" height="96"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="925-FG-5NC">
+                                <rect key="frame" x="16" y="72" width="160" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="RQs-cZ-Xlw">
+                                <rect key="frame" x="207" y="72" width="160" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="GcB-8Q-wJE">
+                                <rect key="frame" x="16" y="262" width="160" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="X3m-ca-nwk">
+                                <rect key="frame" x="207" y="254" width="160" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="kCQ-33-7n9">
+                                <rect key="frame" x="16" y="441" width="160" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="7T0-QC-V6P">
+                                <rect key="frame" x="207" y="431" width="160" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -72,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N4D-Zt-NjV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2463" y="1675"/>
+            <point key="canvasLocation" x="2461.5999999999999" y="1674.5127436281859"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F4a-7U-X8s">
@@ -86,20 +105,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gabbiano" translatesAutoresizingMaskIntoConstraints="NO" id="cC8-KV-F0H">
-                                <rect key="frame" x="0.0" y="64" width="375" height="201"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="polmoniforesta" translatesAutoresizingMaskIntoConstraints="NO" id="cC8-KV-F0H">
+                                <rect key="frame" x="16" y="64" width="343" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JgE-AR-Vdt">
-                                <rect key="frame" x="0.0" y="288" width="375" height="334"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="center" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="O1c-n8-htf">
+                                <rect key="frame" x="31" y="307" width="156" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Per disastri petroliferi si intendono disastri ambientali causati dal rilascio di grandi quantità di petrolio nell'ambiente.
-
-In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (in inglese oil spills ed in ambito specialistico italiano frequentemente traslato erroneamente in spillamento), compromette gravemente l'ambiente terrestre. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="bzj-sd-cHT">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="LbM-St-tIE"/>
+                                            <constraint firstAttribute="width" constant="80" id="TnA-ig-7RK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Health" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFK-Ua-3Ss">
+                                        <rect key="frame" x="106" y="30" width="50" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="center" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="MVH-ov-aVZ">
+                                <rect key="frame" x="31" y="414" width="202" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="albero" translatesAutoresizingMaskIntoConstraints="NO" id="yGc-md-EA1">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="D9e-rM-b15"/>
+                                            <constraint firstAttribute="width" constant="80" id="yqJ-RW-meq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Environment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ds-RB-Uw0">
+                                        <rect key="frame" x="106" y="30" width="96" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="center" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="pvn-zn-cmG">
+                                <rect key="frame" x="31" y="521" width="148" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zbg-N8-3mu">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="HZL-q0-oMs"/>
+                                            <constraint firstAttribute="width" constant="80" id="LAh-R2-WL0"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJi-9r-V8M">
+                                        <rect key="frame" x="106" y="30" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -108,7 +174,7 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6o-NA-m0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524" y="1676"/>
+            <point key="canvasLocation" x="524" y="1675.4122938530736"/>
         </scene>
         <!--GettingQR Code View Controller-->
         <scene sceneID="oMJ-nD-Woc">
@@ -219,20 +285,20 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
                     </tabBar>
                     <connections>
                         <segue destination="zRt-Zi-1BF" kind="relationship" relationship="viewControllers" id="oMT-tI-LHd"/>
-                        <segue destination="iv1-bK-dBI" kind="relationship" relationship="viewControllers" id="FGS-Vw-VxI"/>
-                        <segue destination="zqE-DN-ddR" kind="relationship" relationship="viewControllers" id="VFO-dy-vlw"/>
                         <segue destination="gUD-rG-S7f" kind="relationship" relationship="viewControllers" id="mXv-vH-cRm"/>
+                        <segue destination="zqE-DN-ddR" kind="relationship" relationship="viewControllers" id="VFO-dy-vlw"/>
+                        <segue destination="iv1-bK-dBI" kind="relationship" relationship="viewControllers" id="FGS-Vw-VxI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aoW-sQ-bVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-356" y="820"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Profile-->
         <scene sceneID="esY-6T-Fjp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zRt-Zi-1BF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="2AD-dv-g0g"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="user" id="2AD-dv-g0g"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lwP-qF-OZu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -247,11 +313,11 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
             </objects>
             <point key="canvasLocation" x="1524" y="819.94002998500753"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--More-->
         <scene sceneID="cFM-W6-c39">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iv1-bK-dBI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="KXv-YG-Sit"/>
+                    <tabBarItem key="tabBarItem" title="More" image="info" id="KXv-YG-Sit"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ge4-kL-6Xm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -266,11 +332,11 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
             </objects>
             <point key="canvasLocation" x="-356" y="1677"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--History-->
         <scene sceneID="ROC-FZ-fNI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zqE-DN-ddR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="history" id="ZYo-d8-jWp"/>
+                    <tabBarItem key="tabBarItem" title="History" image="book" id="ZYo-d8-jWp"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9s2-7L-ruM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -285,11 +351,11 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
             </objects>
             <point key="canvasLocation" x="1678" y="1676"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Scan-->
         <scene sceneID="HXa-ga-UmA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gUD-rG-S7f" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="search" id="f7g-gK-iST"/>
+                    <tabBarItem key="tabBarItem" title="Scan" image="scan" id="f7g-gK-iST"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fln-8P-glf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -307,8 +373,14 @@ In particolare la perdita del petrolio dalle petroliere, o meglio: sversamento (
     </scenes>
     <resources>
         <image name="ModelloProfilo" width="304" height="303"/>
-        <image name="acqua_nestlè" width="961" height="3500"/>
-        <image name="gabbiano" width="720" height="460"/>
+        <image name="albero" width="374" height="327"/>
+        <image name="book" width="32" height="32"/>
+        <image name="heart" width="512" height="512"/>
+        <image name="info" width="32" height="32"/>
         <image name="percentuale" width="265" height="95"/>
+        <image name="polmoniforesta" width="710" height="444"/>
+        <image name="postit" width="1280" height="1266"/>
+        <image name="scan" width="32" height="32"/>
+        <image name="user" width="32" height="32"/>
     </resources>
 </document>
