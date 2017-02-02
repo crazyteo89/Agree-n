@@ -55,10 +55,10 @@ class AfterScannedViewController: UITableViewController {
         
         let cellIdentifier = "ProductContentCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! ProductContentCell
-//        cell.nameLabel?.text = self.productName[indexPath.row]
+        cell.productName?.text = self.productName[indexPath.row]
 //        cell.locationLabel?.text = self.productLocation[indexPath.row]
-//        cell.typeLabel?.text = self.productType[indexPath.row]
-//        cell.productImage.image = self.productImage[indexPath.row]
+        cell.productType?.text = self.productType[indexPath.row]
+        cell.productImage.image = self.productImage[indexPath.row]
 //        
         return cell
     }

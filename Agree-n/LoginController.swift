@@ -101,12 +101,12 @@ class LoginController: UIViewController, UICollectionViewDataSource, UICollectio
         if checkUsers == nil {
             let sampleUser = UserDetail(name: "Alex", password: "123456789", image: UIImage())
             self.saveUsers(list: [sampleUser!])
-        } else {
+        } /*else {
             for user in checkUsers! {
                 print(user.AllDetail.userName)
                 print(user.AllDetail.userPassword)
             }
-        }
+        }*/
         
         observeKeyboardNotifications()
         
