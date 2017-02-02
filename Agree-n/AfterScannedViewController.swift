@@ -17,10 +17,13 @@ class AfterScannedViewController: UITableViewController {
     
     var productName = [String]()
     var productPrice = [String]()
+    var billPrice = [Float]()
     var productImage = [UIImage]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
         self.billToShow.text = self.billScanned
         
         if billScanned == billNumber {
@@ -33,7 +36,18 @@ class AfterScannedViewController: UITableViewController {
                 }
             }
         }
-        // Do any additional setup after loading the view.
+        for value in self.productPrice {
+//            let provaEstratta = value
+//            let prova = (Float)(provaEstratta)
+//            self.billPrice += [prova]
+        }
+        var totalBillRating: Float = 0.0
+        for value in self.billPrice {
+            totalBillRating += value
+        }
+        totalBillRating = totalBillRating / (Float)(self.billPrice.count)
+        self.ratingToShow.text = (String)(totalBillRating)
+        
     }
     
     private func loadProducts() -> [BillDetail]? {
