@@ -43,7 +43,7 @@ class LoginController: UIViewController, UICollectionViewDataSource, UICollectio
     lazy var pageControl: UIPageControl = {
         let pc = UIPageControl()
         pc.pageIndicatorTintColor = .lightGray
-        pc.currentPageIndicatorTintColor = UIColor(red: 247/255, green: 154/255, blue: 27/255, alpha: 1)
+        pc.currentPageIndicatorTintColor = UIColor.init(red: 87.0/255.0, green: 175.0/255.0, blue: 0.0/255.0, alpha: 1.0)
         pc.numberOfPages = self.pages.count + 1
         return pc
     }()
@@ -51,7 +51,7 @@ class LoginController: UIViewController, UICollectionViewDataSource, UICollectio
     lazy var skipButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Skip", for: .normal)
-        button.setTitleColor(UIColor(red: 247/255, green: 154/255, blue: 27/255, alpha: 1), for: .normal)
+        button.setTitleColor(UIColor.init(red: 87.0/255.0, green: 175.0/255.0, blue: 0.0/255.0, alpha: 1.0), for: .normal)
         button.addTarget(self, action: #selector(skip), for: .touchUpInside)
         return button
     }()
@@ -65,7 +65,7 @@ class LoginController: UIViewController, UICollectionViewDataSource, UICollectio
     lazy var nextButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Next", for: .normal)
-        button.setTitleColor(UIColor(red: 247/255, green: 154/255, blue: 27/255, alpha: 1), for: .normal)
+        button.setTitleColor(UIColor.init(red: 87.0/255.0, green: 175.0/255.0, blue: 0.0/255.0, alpha: 1.0), for: .normal)
         button.addTarget(self, action: #selector(nextPage), for: .touchUpInside)
         return button
     }()
@@ -98,8 +98,8 @@ class LoginController: UIViewController, UICollectionViewDataSource, UICollectio
         super.viewDidLoad()
         
         let checkUsers = self.loadUsers()
-        if checkUsers == nil {
-            let sampleUser = UserDetail(name: "Alex", password: "123456789", image: UIImage())
+        if checkUsers != nil {
+            let sampleUser = UserDetail(name: "alex", password: "123456789", image: UIImage())
             self.saveUsers(list: [sampleUser!])
         } /*else {
             for user in checkUsers! {
