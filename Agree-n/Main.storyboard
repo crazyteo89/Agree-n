@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home-->
+        <!--Home Screen View Controller-->
         <scene sceneID="i2U-2H-e3B">
             <objects>
                 <viewController storyboardIdentifier="HomeScreenViewController" id="isq-Ld-snX" customClass="HomeScreenViewController" customModule="Agree_n" customModuleProvider="target" sceneMemberID="viewController">
@@ -40,14 +40,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="fQM-Cf-Mdw"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="fQM-Cf-Mdw"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="03j-jH-fSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1746" y="820"/>
         </scene>
-        <!--History-->
+        <!--Check For Bill View Controller-->
         <scene sceneID="QmW-Ao-gSS">
             <objects>
                 <viewController id="lXk-9O-CP7" customClass="CheckForBillViewController" customModule="Agree_n" customModuleProvider="target" sceneMemberID="viewController">
@@ -146,8 +147,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="History" id="nF6-ny-XEv"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="nF6-ny-XEv"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="BqG-Iz-UaA" kind="show" identifier="CheckForBill" id="BcK-6g-M7p"/>
                     </connections>
@@ -156,7 +158,7 @@
             </objects>
             <point key="canvasLocation" x="2461.5999999999999" y="1674.5127436281859"/>
         </scene>
-        <!--More-->
+        <!--View Controller-->
         <scene sceneID="F4a-7U-X8s">
             <objects>
                 <viewController id="D9f-OK-0xF" sceneMemberID="viewController">
@@ -229,7 +231,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="More" id="DTe-rH-1yI"/>
+                    <navigationItem key="navigationItem" id="DTe-rH-1yI"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6o-NA-m0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
