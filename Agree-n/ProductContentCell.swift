@@ -12,8 +12,7 @@ class ProductContentCell: UITableViewCell {
     
     @IBOutlet var productImage: UIImageView!
     @IBOutlet var productName: UILabel!
-    @IBOutlet var productType: UILabel!
-    
+    @IBOutlet var productPrice: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

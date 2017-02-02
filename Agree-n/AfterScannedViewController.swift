@@ -9,24 +9,26 @@
 import UIKit
 
 class AfterScannedViewController: UITableViewController {
-
+    @IBOutlet var ratingToShow: UILabel!
+    @IBOutlet var billToShow: UILabel!
+    
     var billNumber = "123456789123456789"
-    var billScanned = ""
+    var billScanned = "no"
     
     var productName = [String]()
-    var productLocation = [String]()
-    var productType = [String]()
+    var productPrice = [String]()
     var productImage = [UIImage]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.billToShow.text = self.billScanned
+        
         if billScanned == billNumber {
             let productList = self.loadProducts()
             for value in productList! {
-                if ((value.AllDetail.productBill?.compare(self.billNumber)) != nil) {
+                if value.AllDetail.productBill! == "123456789123456789" {
                     self.productName += [value.AllDetail.productName!]
-                    self.productLocation += [value.AllDetail.productLocation!]
-                    self.productType += [value.AllDetail.productType!]
+                    self.productPrice += [value.AllDetail.productPrice!]
                     self.productImage += [value.AllDetail.productImage!]
                 }
             }
@@ -56,10 +58,8 @@ class AfterScannedViewController: UITableViewController {
         let cellIdentifier = "ProductContentCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! ProductContentCell
         cell.productName?.text = self.productName[indexPath.row]
-//        cell.locationLabel?.text = self.productLocation[indexPath.row]
-        cell.productType?.text = self.productType[indexPath.row]
-        cell.productImage.image = self.productImage[indexPath.row]
-//        
+        cell.productPrice?.text = self.productPrice[indexPath.row]
+        cell.productImage.image = self.productImage[indexPath.row]        
         return cell
     }
     
