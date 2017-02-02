@@ -36,8 +36,8 @@ class LoginCell: UICollectionViewCell {
     
     lazy var loginButton: UIButton = {
         let button = UIButton(type: .system)
-        button.backgroundColor = .green
-        button.setTitle("Log in", for: .normal)
+        button.backgroundColor = UIColor.init(red: 87.0/255.0, green: 175.0/255.0, blue: 0.0/255.0, alpha: 1.0)
+        button.setTitle("Sign in", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
         return button
@@ -57,7 +57,7 @@ class LoginCell: UICollectionViewCell {
         addSubview(passwordTextField)
         addSubview(loginButton)
         
-        _ = logoImageView.anchor(centerYAnchor, left: nil, bottom: nil, right: nil, topConstant: -200, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 160, heightConstant: 160)
+        _ = logoImageView.anchor(centerYAnchor, left: nil, bottom: nil, right: nil, topConstant: -200, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 130, heightConstant: 130)
         logoImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         
         _ = emailTextField.anchor(logoImageView.bottomAnchor, left: leftAnchor, bottom: nil, right: rightAnchor, topConstant: 8, leftConstant: 32, bottomConstant: 0, rightConstant: 32, widthConstant: 0, heightConstant: 50)
