@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XF1-GH-J4L">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XF1-GH-J4L">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -503,4 +503,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="Mx9-QE-YBr"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.27261349558830261" green="0.74012607336044312" blue="0.1639619767665863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
