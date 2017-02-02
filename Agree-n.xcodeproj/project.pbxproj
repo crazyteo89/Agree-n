@@ -20,6 +20,7 @@
 		CF1401AC1E434EB200E5C68A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A41E434EB200E5C68A /* Page.swift */; };
 		CF1401AD1E434EB200E5C68A /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A51E434EB200E5C68A /* PageCell.swift */; };
 		CF1401AE1E434EB200E5C68A /* UserDefaults+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A61E434EB200E5C68A /* UserDefaults+helpers.swift */; };
+		CF1401B01E4355C300E5C68A /* CheckForBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401AF1E4355C300E5C68A /* CheckForBillViewController.swift */; };
 		CF6378371E4249CD005ADE65 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6378361E4249CD005ADE65 /* UserDetail.swift */; };
 		FFD5D2A81E40E17100A96973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD5D2A71E40E17100A96973 /* LaunchScreen.storyboard */; };
 		FFF1A7781E3F447500A2FFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A7771E3F447500A2FFEE /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 		CF1401A41E434EB200E5C68A /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		CF1401A51E434EB200E5C68A /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		CF1401A61E434EB200E5C68A /* UserDefaults+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+helpers.swift"; sourceTree = "<group>"; };
+		CF1401AF1E4355C300E5C68A /* CheckForBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckForBillViewController.swift; sourceTree = "<group>"; };
 		CF6378361E4249CD005ADE65 /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
 		FFD5D2A71E40E17100A96973 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF1A7741E3F447500A2FFEE /* Agree-n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agree-n.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				CF0AE9841E40C60700F226AE /* ProductContentCell.swift */,
 				CF0AE9861E40C7F800F226AE /* BillDetail.swift */,
 				CF6378361E4249CD005ADE65 /* UserDetail.swift */,
+				CF1401AF1E4355C300E5C68A /* CheckForBillViewController.swift */,
 			);
 			path = "Agree-n";
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF0AE9871E40C7F800F226AE /* BillDetail.swift in Sources */,
+				CF1401B01E4355C300E5C68A /* CheckForBillViewController.swift in Sources */,
 				CF1401AA1E434EB200E5C68A /* LoginController.swift in Sources */,
 				CF1401A71E434EB200E5C68A /* Extensions.swift in Sources */,
 				FFF1A77A1E3F447500A2FFEE /* ViewController.swift in Sources */,

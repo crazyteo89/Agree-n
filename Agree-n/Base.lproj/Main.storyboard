@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XF1-GH-J4L">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XF1-GH-J4L">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="2463.1999999999998" y="819.94002998500753"/>
         </scene>
-        <!--View Controller-->
+        <!--Check For Bill View Controller-->
         <scene sceneID="QmW-Ao-gSS">
             <objects>
-                <viewController id="lXk-9O-CP7" sceneMemberID="viewController">
+                <viewController id="lXk-9O-CP7" customClass="CheckForBillViewController" customModule="Agree_n" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FDs-w4-iUg"/>
                         <viewControllerLayoutGuide type="bottom" id="r91-CI-Gf8"/>
@@ -84,13 +84,63 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ee-Xo-htv">
-                                <rect key="frame" x="16" y="72" width="160" height="133"/>
+                                <rect key="frame" x="16" y="72" width="142" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Scontrino 1">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BqG-Iz-UaA" kind="show" id="uTO-8G-pvF"/>
+                                    <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="DVS-gE-cNz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsc-u8-cyz">
+                                <rect key="frame" x="207" y="72" width="142" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Scontrino 2">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="bph-qZ-UbJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhF-ue-ArU">
+                                <rect key="frame" x="16" y="262" width="142" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Scontrino 3">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="ngs-3J-nrS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="330-Mq-meB">
+                                <rect key="frame" x="207" y="262" width="142" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Scontrino 4">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="FqW-Xb-hsG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2E-5C-IRG">
+                                <rect key="frame" x="16" y="447" width="142" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Scontrino 5">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="UbP-fl-xGc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77H-Qg-XeK">
+                                <rect key="frame" x="207" y="441" width="142" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Scontrino 6">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="IqK-EB-FyC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -98,6 +148,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="nF6-ny-XEv"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="BqG-Iz-UaA" kind="show" identifier="CheckForBill" id="BcK-6g-M7p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N4D-Zt-NjV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -232,44 +285,40 @@
                                             </constraints>
                                         </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Pxh-n4-5Ou">
-                                            <rect key="frame" x="136" y="19" width="42" height="63"/>
+                                            <rect key="frame" x="136" y="8" width="49" height="62"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Shb-8Z-ADv">
-                                                    <rect key="frame" x="0.0" y="0.0" width="42" height="20"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="49" height="42"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJ7-mK-76y">
-                                                    <rect key="frame" x="0.0" y="26" width="42" height="17"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="17" id="U6X-bs-Wca"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7el-yB-f8J">
-                                                    <rect key="frame" x="0.0" y="49" width="42" height="14"/>
+                                                    <rect key="frame" x="0.0" y="48" width="49" height="14"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="14" id="gmV-yB-vnW"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="Pxh-n4-5Ou" firstAttribute="top" secondItem="KX5-ha-a20" secondAttribute="topMargin" constant="11" id="7oG-Q6-aNx"/>
+                                        <constraint firstItem="Pxh-n4-5Ou" firstAttribute="top" secondItem="KX5-ha-a20" secondAttribute="topMargin" id="7oG-Q6-aNx"/>
                                         <constraint firstItem="Pxh-n4-5Ou" firstAttribute="leading" secondItem="W3p-tR-MAC" secondAttribute="trailing" constant="8" symbolic="YES" id="Lsg-Hl-6il"/>
                                         <constraint firstItem="W3p-tR-MAC" firstAttribute="top" secondItem="KX5-ha-a20" secondAttribute="top" id="POw-di-aya"/>
                                         <constraint firstItem="W3p-tR-MAC" firstAttribute="leading" secondItem="KX5-ha-a20" secondAttribute="leadingMargin" id="ThB-sB-nlc"/>
-                                        <constraint firstItem="W3p-tR-MAC" firstAttribute="centerY" secondItem="Pxh-n4-5Ou" secondAttribute="centerY" id="xpt-md-pMv"/>
+                                        <constraint firstItem="W3p-tR-MAC" firstAttribute="centerY" secondItem="Pxh-n4-5Ou" secondAttribute="centerY" constant="11" id="xpt-md-pMv"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="W3p-tR-MAC" secondAttribute="bottom" constant="1" id="y8W-uO-tsv"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="productImage" destination="W3p-tR-MAC" id="PXa-gX-fej"/>
+                                    <outlet property="productName" destination="Shb-8Z-ADv" id="03z-KU-MpR"/>
+                                    <outlet property="productType" destination="7el-yB-f8J" id="x2f-23-Lkr"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -280,7 +329,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sio-pm-SnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4793" y="2524"/>
+            <point key="canvasLocation" x="4836" y="2447"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="hWW-ve-to8">
@@ -449,6 +498,6 @@
         <image name="zampa" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uTO-8G-pvF"/>
+        <segue reference="BcK-6g-M7p"/>
     </inferredMetricsTieBreakers>
 </document>

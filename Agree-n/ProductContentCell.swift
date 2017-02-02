@@ -10,6 +10,9 @@ import UIKit
 
 class ProductContentCell: UITableViewCell {
     
+    @IBOutlet var productImage: UIImageView!
+    @IBOutlet var productName: UILabel!
+    @IBOutlet var productType: UILabel!
     
     
     override func awakeFromNib() {
