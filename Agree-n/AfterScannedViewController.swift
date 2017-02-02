@@ -18,6 +18,9 @@ class AfterScannedViewController: UITableViewController {
     
     var productName = [String]()
     var productPrice = [String]()
+    var productRating = [String]()
+    
+    var billRating = [Float]()
     var billPrice = [Float]()
     var productImage = [UIImage]()
     
@@ -32,23 +35,47 @@ class AfterScannedViewController: UITableViewController {
             for value in productList! {
                 if value.AllDetail.productBill! == "123456789123456789" {
                     self.productName += [value.AllDetail.productName!]
+                    self.productRating += [value.AllDetail.productRating!]
                     self.productPrice += [value.AllDetail.productPrice!]
                     self.productImage += [value.AllDetail.productImage!]
                 }
             }
         }
+        for value in self.productRating {
+            let estractedRating = (Float)(value)
+            self.billRating += [(Float)(estractedRating!)]
+        }
         for value in self.productPrice {
-            var estractedPrice = value
-            estractedPrice = value.replacingOccurrences(of: "€", with: "")
+            let estractedPrice = value.replacingOccurrences(of: "€", with: "")
             self.billPrice += [(Float)(estractedPrice)!]
         }
+        
+        var totalBillPrice: Float = 0.0
         var totalBillRating: Float = 0.0
         for value in self.billPrice {
-            totalBillRating += value
+            totalBillPrice += value
+        }
+        for value in self.billRating {
+            totalBillRating += (Float)(value)
         }
         
-        self.priceToShow.text = (String)(totalBillRating)
+        self.priceToShow.text = (String)(totalBillPrice)
         
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
+        formatter.maximumFractionDigits = 2
+        formatter.roundingMode = .up
+        
+        totalBillRating = totalBillRating / (Float)(self.billRating.count)
+        self.ratingToShow.text = formatter.string(for: totalBillRating)
+        switch totalBillRating {
+        case 0.0...2.50:
+            self.ratingToShow.textColor = UIColor.init(red: 230.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0)
+        case 2.51...3.99:
+            self.ratingToShow.textColor = UIColor.init(red: 230.0/255.0, green: 230.0/255.0, blue: 0.0/255.0, alpha: 1.0)
+        default:
+            self.ratingToShow.textColor = UIColor.init(red: 87.0/255.0, green: 175.0/255.0, blue: 0.0/255.0, alpha: 1.0)
+        }
     }
     
     private func loadProducts() -> [BillDetail]? {

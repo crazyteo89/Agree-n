@@ -87,7 +87,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ee-Xo-htv">
                                 <rect key="frame" x="16" y="72" width="142" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scontrino 1">
+                                <state key="normal" title="Scontrino: 1">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -97,7 +97,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsc-u8-cyz">
                                 <rect key="frame" x="207" y="72" width="142" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scontrino 2">
+                                <state key="normal" title="Scontrino: 2">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -107,7 +107,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhF-ue-ArU">
                                 <rect key="frame" x="16" y="262" width="142" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scontrino 3">
+                                <state key="normal" title="Scontrino: 3">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -117,7 +117,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="330-Mq-meB">
                                 <rect key="frame" x="207" y="262" width="142" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scontrino 4">
+                                <state key="normal" title="Scontrino: 4">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -127,7 +127,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2E-5C-IRG">
                                 <rect key="frame" x="16" y="447" width="142" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scontrino 5">
+                                <state key="normal" title="Scontrino: 5">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -137,7 +137,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77H-Qg-XeK">
                                 <rect key="frame" x="207" y="441" width="142" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scontrino 6">
+                                <state key="normal" title="Scontrino: 6">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -291,11 +291,11 @@
                                     </subviews>
                                 </stackView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQg-T6-QuU">
-                                    <rect key="frame" x="293" y="50" width="74" height="21"/>
+                                    <rect key="frame" x="293" y="45" width="74" height="31"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="74" id="iDb-H4-T5Z"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
@@ -309,7 +309,7 @@
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="IQg-T6-QuU" firstAttribute="top" secondItem="rid-pM-4at" secondAttribute="top" constant="50" id="356-6W-e18"/>
+                                <constraint firstItem="IQg-T6-QuU" firstAttribute="top" secondItem="rid-pM-4at" secondAttribute="top" constant="45" id="356-6W-e18"/>
                                 <constraint firstItem="dvF-83-hxE" firstAttribute="leading" secondItem="rid-pM-4at" secondAttribute="leadingMargin" id="AdQ-vB-dJw"/>
                                 <constraint firstItem="IQg-T6-QuU" firstAttribute="trailing" secondItem="rid-pM-4at" secondAttribute="trailingMargin" id="EyL-7s-IEg"/>
                                 <constraint firstItem="dvF-83-hxE" firstAttribute="centerY" secondItem="IQg-T6-QuU" secondAttribute="centerY" id="jX4-Ul-Ij5"/>
