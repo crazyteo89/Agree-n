@@ -12,14 +12,14 @@
 		CF0AE9831E40C56800F226AE /* AfterScannedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0AE9821E40C56800F226AE /* AfterScannedViewController.swift */; };
 		CF0AE9851E40C60700F226AE /* ProductContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0AE9841E40C60700F226AE /* ProductContentCell.swift */; };
 		CF0AE9871E40C7F800F226AE /* BillDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0AE9861E40C7F800F226AE /* BillDetail.swift */; };
-		CF6378271E422C8A005ADE65 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6378261E422C8A005ADE65 /* LoginController.swift */; };
-		CF6378291E422CE1005ADE65 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6378281E422CE1005ADE65 /* MainNavigationController.swift */; };
-		CF63782B1E422D18005ADE65 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63782A1E422D18005ADE65 /* HomeController.swift */; };
-		CF6378311E422D48005ADE65 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63782C1E422D48005ADE65 /* Extensions.swift */; };
-		CF6378321E422D48005ADE65 /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63782D1E422D48005ADE65 /* LoginCell.swift */; };
-		CF6378331E422D48005ADE65 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63782E1E422D48005ADE65 /* Page.swift */; };
-		CF6378341E422D48005ADE65 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63782F1E422D48005ADE65 /* PageCell.swift */; };
-		CF6378351E422D48005ADE65 /* UserDefaults+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6378301E422D48005ADE65 /* UserDefaults+helpers.swift */; };
+		CF1401A71E434EB200E5C68A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14019F1E434EB200E5C68A /* Extensions.swift */; };
+		CF1401A81E434EB200E5C68A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A01E434EB200E5C68A /* HomeController.swift */; };
+		CF1401A91E434EB200E5C68A /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A11E434EB200E5C68A /* LoginCell.swift */; };
+		CF1401AA1E434EB200E5C68A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A21E434EB200E5C68A /* LoginController.swift */; };
+		CF1401AB1E434EB200E5C68A /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A31E434EB200E5C68A /* MainNavigationController.swift */; };
+		CF1401AC1E434EB200E5C68A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A41E434EB200E5C68A /* Page.swift */; };
+		CF1401AD1E434EB200E5C68A /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A51E434EB200E5C68A /* PageCell.swift */; };
+		CF1401AE1E434EB200E5C68A /* UserDefaults+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A61E434EB200E5C68A /* UserDefaults+helpers.swift */; };
 		CF6378371E4249CD005ADE65 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6378361E4249CD005ADE65 /* UserDetail.swift */; };
 		FFD5D2A81E40E17100A96973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD5D2A71E40E17100A96973 /* LaunchScreen.storyboard */; };
 		FFF1A7781E3F447500A2FFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A7771E3F447500A2FFEE /* AppDelegate.swift */; };
@@ -34,14 +34,14 @@
 		CF0AE9821E40C56800F226AE /* AfterScannedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfterScannedViewController.swift; sourceTree = "<group>"; };
 		CF0AE9841E40C60700F226AE /* ProductContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductContentCell.swift; sourceTree = "<group>"; };
 		CF0AE9861E40C7F800F226AE /* BillDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetail.swift; sourceTree = "<group>"; };
-		CF6378261E422C8A005ADE65 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = "../../../Desktop/Login Guide/Greenify/Greenify/LoginController.swift"; sourceTree = "<group>"; };
-		CF6378281E422CE1005ADE65 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = "../../../Desktop/Login Guide/Greenify/Greenify/MainNavigationController.swift"; sourceTree = "<group>"; };
-		CF63782A1E422D18005ADE65 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = "../../../Desktop/Login Guide/Greenify/Greenify/HomeController.swift"; sourceTree = "<group>"; };
-		CF63782C1E422D48005ADE65 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../Desktop/Login Guide/Greenify/Greenify/Extensions.swift"; sourceTree = "<group>"; };
-		CF63782D1E422D48005ADE65 /* LoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginCell.swift; path = "../../../Desktop/Login Guide/Greenify/Greenify/LoginCell.swift"; sourceTree = "<group>"; };
-		CF63782E1E422D48005ADE65 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page.swift; path = "../../../Desktop/Login Guide/Greenify/Greenify/Page.swift"; sourceTree = "<group>"; };
-		CF63782F1E422D48005ADE65 /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageCell.swift; path = "../../../Desktop/Login Guide/Greenify/Greenify/PageCell.swift"; sourceTree = "<group>"; };
-		CF6378301E422D48005ADE65 /* UserDefaults+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserDefaults+helpers.swift"; path = "../../../Desktop/Login Guide/Greenify/Greenify/UserDefaults+helpers.swift"; sourceTree = "<group>"; };
+		CF14019F1E434EB200E5C68A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CF1401A01E434EB200E5C68A /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		CF1401A11E434EB200E5C68A /* LoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		CF1401A21E434EB200E5C68A /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CF1401A31E434EB200E5C68A /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		CF1401A41E434EB200E5C68A /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		CF1401A51E434EB200E5C68A /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		CF1401A61E434EB200E5C68A /* UserDefaults+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+helpers.swift"; sourceTree = "<group>"; };
 		CF6378361E4249CD005ADE65 /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
 		FFD5D2A71E40E17100A96973 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF1A7741E3F447500A2FFEE /* Agree-n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agree-n.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,14 +82,14 @@
 		FFF1A7761E3F447500A2FFEE /* Agree-n */ = {
 			isa = PBXGroup;
 			children = (
-				CF63782C1E422D48005ADE65 /* Extensions.swift */,
-				CF63782D1E422D48005ADE65 /* LoginCell.swift */,
-				CF63782E1E422D48005ADE65 /* Page.swift */,
-				CF63782F1E422D48005ADE65 /* PageCell.swift */,
-				CF6378301E422D48005ADE65 /* UserDefaults+helpers.swift */,
-				CF63782A1E422D18005ADE65 /* HomeController.swift */,
-				CF6378281E422CE1005ADE65 /* MainNavigationController.swift */,
-				CF6378261E422C8A005ADE65 /* LoginController.swift */,
+				CF14019F1E434EB200E5C68A /* Extensions.swift */,
+				CF1401A01E434EB200E5C68A /* HomeController.swift */,
+				CF1401A11E434EB200E5C68A /* LoginCell.swift */,
+				CF1401A21E434EB200E5C68A /* LoginController.swift */,
+				CF1401A31E434EB200E5C68A /* MainNavigationController.swift */,
+				CF1401A41E434EB200E5C68A /* Page.swift */,
+				CF1401A51E434EB200E5C68A /* PageCell.swift */,
+				CF1401A61E434EB200E5C68A /* UserDefaults+helpers.swift */,
 				FFF1A7771E3F447500A2FFEE /* AppDelegate.swift */,
 				FFF1A7791E3F447500A2FFEE /* ViewController.swift */,
 				FFF1A77B1E3F447500A2FFEE /* Main.storyboard */,
@@ -179,22 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF6378291E422CE1005ADE65 /* MainNavigationController.swift in Sources */,
-				CF6378331E422D48005ADE65 /* Page.swift in Sources */,
-				CF6378351E422D48005ADE65 /* UserDefaults+helpers.swift in Sources */,
 				CF0AE9871E40C7F800F226AE /* BillDetail.swift in Sources */,
+				CF1401AA1E434EB200E5C68A /* LoginController.swift in Sources */,
+				CF1401A71E434EB200E5C68A /* Extensions.swift in Sources */,
 				FFF1A77A1E3F447500A2FFEE /* ViewController.swift in Sources */,
+				CF1401AC1E434EB200E5C68A /* Page.swift in Sources */,
 				CF0AE9851E40C60700F226AE /* ProductContentCell.swift in Sources */,
-				CF63782B1E422D18005ADE65 /* HomeController.swift in Sources */,
-				CF6378341E422D48005ADE65 /* PageCell.swift in Sources */,
+				CF1401A81E434EB200E5C68A /* HomeController.swift in Sources */,
 				CF0AE9811E40C1B700F226AE /* GettingQRCodeViewController.swift in Sources */,
+				CF1401A91E434EB200E5C68A /* LoginCell.swift in Sources */,
 				CF0AE9831E40C56800F226AE /* AfterScannedViewController.swift in Sources */,
-				CF6378271E422C8A005ADE65 /* LoginController.swift in Sources */,
+				CF1401AE1E434EB200E5C68A /* UserDefaults+helpers.swift in Sources */,
 				FFF1A7781E3F447500A2FFEE /* AppDelegate.swift in Sources */,
-				CF6378311E422D48005ADE65 /* Extensions.swift in Sources */,
+				CF1401AD1E434EB200E5C68A /* PageCell.swift in Sources */,
 				CF6378371E4249CD005ADE65 /* UserDetail.swift in Sources */,
+				CF1401AB1E434EB200E5C68A /* MainNavigationController.swift in Sources */,
 				CF0AE97F1E40C16C00F226AE /* HomeScreenViewController.swift in Sources */,
-				CF6378321E422D48005ADE65 /* LoginCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
