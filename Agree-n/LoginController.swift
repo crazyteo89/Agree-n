@@ -98,7 +98,7 @@ class LoginController: UIViewController, UICollectionViewDataSource, UICollectio
         super.viewDidLoad()
         
         let checkUsers = self.loadUsers()
-        if checkUsers != nil {
+        if checkUsers == nil {
             let sampleUser = UserDetail(name: "a", password: "a", image: UIImage())
             self.saveUsers(list: [sampleUser!])
         } /*else {
