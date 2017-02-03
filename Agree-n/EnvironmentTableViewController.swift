@@ -40,7 +40,6 @@ class EnvironmentTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return envNames.count
     }
-
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "rowContent"
