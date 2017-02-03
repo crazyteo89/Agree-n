@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         sleep(2);
         UITabBar.appearance().tintColor = UIColor.init(red: 87.0/255.0, green: 175.0/255.0, blue: 0.0/255.0, alpha: 1.0) //e non ci rompere i coglioni
         
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         

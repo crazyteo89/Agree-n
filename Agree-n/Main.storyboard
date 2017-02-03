@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="listaProfilo2" translatesAutoresizingMaskIntoConstraints="NO" id="L31-ob-NlN">
-                                <rect key="frame" x="16" y="409" width="343" height="238"/>
+                                <rect key="frame" x="0.0" y="381" width="375" height="266"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -645,7 +645,13 @@
         <scene sceneID="HXa-ga-UmA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gUD-rG-S7f" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Scan" image="scan" id="f7g-gK-iST"/>
+                    <tabBarItem key="tabBarItem" title="Scan" image="scan" id="f7g-gK-iST">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fln-8P-glf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -798,7 +804,7 @@
         <image name="book" width="32" height="32"/>
         <image name="health" width="256" height="256"/>
         <image name="info" width="32" height="32"/>
-        <image name="listaProfilo2" width="516" height="321"/>
+        <image name="listaProfilo2" width="384" height="321"/>
         <image name="percentuale" width="265" height="95"/>
         <image name="polmoniforesta" width="710" height="444"/>
         <image name="scan" width="32" height="32"/>
