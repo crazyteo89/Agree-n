@@ -9,9 +9,11 @@
 import UIKit
 
 class MainNavigationController: UINavigationController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        
         
         if isLoggedIn() {
             //assume user is logged in
@@ -21,6 +23,7 @@ class MainNavigationController: UINavigationController {
             perform(#selector(showLoginController), with: nil, afterDelay: 0.01)
         }
     }
+    
     
     fileprivate func isLoggedIn() -> Bool {
         return UserDefaults.standard.isLoggedIn()
@@ -33,4 +36,6 @@ class MainNavigationController: UINavigationController {
             
         })
     }
+    
+   
 }

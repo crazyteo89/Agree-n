@@ -31,9 +31,9 @@ class LoginController: UIViewController, UICollectionViewDataSource, UICollectio
     let loginCellId = "loginCellId"
     
     let pages: [Page] = {
-        let firstPage = Page(title: "Remember your outlay", message: "Receive tips to improve yourself and the World", imageName: "page1")
+        let firstPage = Page(title: "Remember your outlay and do better!", message: "Receive tips to improve yourself and the World", imageName: "page1")
         
-        let secondPage = Page(title: "Know Your World", message: "Tap the More Menu to know important information", imageName: "page2")
+        let secondPage = Page(title: "Know Your World", message: "Tap the More Menu to know very important informations", imageName: "page2")
         
         let thirdPage = Page(title: "Save Your bills", message: "Tap the History Menu to see all your bills", imageName: "page3")
         
@@ -99,7 +99,7 @@ class LoginController: UIViewController, UICollectionViewDataSource, UICollectio
         
         let checkUsers = self.loadUsers()
         if checkUsers != nil {
-            let sampleUser = UserDetail(name: "a", password: "a", image: UIImage())
+            let sampleUser = UserDetail(name: "A", password: "a", image: UIImage())
             self.saveUsers(list: [sampleUser!])
         } /*else {
             for user in checkUsers! {

@@ -13,6 +13,7 @@ class LoginCell: UICollectionViewCell {
     let logoImageView: UIImageView = {
         let image = UIImage(named: "logo")
         let imageView = UIImageView(image: image)
+        
         return imageView
     }()
     
@@ -56,6 +57,8 @@ class LoginCell: UICollectionViewCell {
     func handleLogin() {
         delegate?.finishLoggingIn(name: self.emailTextField, password: self.passwordTextField)
     }
+    
+   
     
     override init(frame: CGRect) {
         super.init(frame: frame)
