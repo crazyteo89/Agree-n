@@ -105,6 +105,17 @@ class AfterScannedViewController: UITableViewController {
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "productDetailSegue" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let destinationController = segue.destination as! ProductDetailsViewController
+                destinationController.nameTaken = self.productName[indexPath.row]
+                destinationController.imageTaken = self.productImage[indexPath.row]
+                destinationController.ratingTaken = self.productRating[indexPath.row]
+            }
+        }
+    }
+    
 
     /*
     // MARK: - Navigation

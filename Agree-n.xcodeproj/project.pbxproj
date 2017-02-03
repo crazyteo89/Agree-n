@@ -22,6 +22,8 @@
 		CF1401AE1E434EB200E5C68A /* UserDefaults+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401A61E434EB200E5C68A /* UserDefaults+helpers.swift */; };
 		CF1401B01E4355C300E5C68A /* CheckForBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1401AF1E4355C300E5C68A /* CheckForBillViewController.swift */; };
 		CF6378371E4249CD005ADE65 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6378361E4249CD005ADE65 /* UserDetail.swift */; };
+		CF825F5B1E44C6D100649FFB /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF825F5A1E44C6D100649FFB /* ProductDetailsViewController.swift */; };
+		CF825F5D1E44C86C00649FFB /* ProductDetailsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF825F5C1E44C86C00649FFB /* ProductDetailsViewCell.swift */; };
 		D388A8071E43F0D10079D079 /* EnvironmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388A8061E43F0D10079D079 /* EnvironmentTableViewController.swift */; };
 		D388A8091E43F59D0079D079 /* EnvironmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388A8081E43F59D0079D079 /* EnvironmentTableViewCell.swift */; };
 		D388A80B1E44009C0079D079 /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388A80A1E44009C0079D079 /* AnimalTableViewController.swift */; };
@@ -51,6 +53,8 @@
 		CF1401A61E434EB200E5C68A /* UserDefaults+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+helpers.swift"; sourceTree = "<group>"; };
 		CF1401AF1E4355C300E5C68A /* CheckForBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckForBillViewController.swift; sourceTree = "<group>"; };
 		CF6378361E4249CD005ADE65 /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		CF825F5A1E44C6D100649FFB /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		CF825F5C1E44C86C00649FFB /* ProductDetailsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewCell.swift; sourceTree = "<group>"; };
 		D388A8061E43F0D10079D079 /* EnvironmentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentTableViewController.swift; sourceTree = "<group>"; };
 		D388A8081E43F59D0079D079 /* EnvironmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentTableViewCell.swift; sourceTree = "<group>"; };
 		D388A80A1E44009C0079D079 /* AnimalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				D388A80C1E4400AD0079D079 /* AnimalTableViewCell.swift */,
 				D388A80E1E44053E0079D079 /* HealthTableViewController.swift */,
 				D388A8101E4405590079D079 /* HealthTableViewCell.swift */,
+				CF825F5A1E44C6D100649FFB /* ProductDetailsViewController.swift */,
+				CF825F5C1E44C86C00649FFB /* ProductDetailsViewCell.swift */,
 			);
 			path = "Agree-n";
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF0AE9871E40C7F800F226AE /* BillDetail.swift in Sources */,
+				CF825F5D1E44C86C00649FFB /* ProductDetailsViewCell.swift in Sources */,
 				D388A8071E43F0D10079D079 /* EnvironmentTableViewController.swift in Sources */,
 				CF1401B01E4355C300E5C68A /* CheckForBillViewController.swift in Sources */,
 				CF1401AA1E434EB200E5C68A /* LoginController.swift in Sources */,
@@ -215,6 +222,7 @@
 				CF0AE9831E40C56800F226AE /* AfterScannedViewController.swift in Sources */,
 				CF1401AE1E434EB200E5C68A /* UserDefaults+helpers.swift in Sources */,
 				FFF1A7781E3F447500A2FFEE /* AppDelegate.swift in Sources */,
+				CF825F5B1E44C6D100649FFB /* ProductDetailsViewController.swift in Sources */,
 				D388A80D1E4400AD0079D079 /* AnimalTableViewCell.swift in Sources */,
 				D388A8111E4405590079D079 /* HealthTableViewCell.swift in Sources */,
 				CF1401AD1E434EB200E5C68A /* PageCell.swift in Sources */,
