@@ -52,7 +52,7 @@
             </objects>
             <point key="canvasLocation" x="1744.8" y="819.94002998500753"/>
         </scene>
-        <!--Check For Bill View Controller-->
+        <!--Your Bills History-->
         <scene sceneID="QmW-Ao-gSS">
             <objects>
                 <viewController id="lXk-9O-CP7" customClass="CheckForBillViewController" customModule="Agree_n" customModuleProvider="target" sceneMemberID="viewController">
@@ -143,7 +143,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="nF6-ny-XEv"/>
+                    <navigationItem key="navigationItem" title="Your Bills History" id="nF6-ny-XEv"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="BqG-Iz-UaA" kind="show" identifier="CheckForBill" id="BcK-6g-M7p"/>
@@ -452,7 +452,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sio-pm-SnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4836" y="2433.7331334332835"/>
+            <point key="canvasLocation" x="4791" y="2436"/>
         </scene>
         <!--Product Details View Controller-->
         <scene sceneID="c9m-ft-k3y">
@@ -491,6 +491,10 @@
                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIy-Hl-dd4">
+                                    <rect key="frame" x="8" y="9" width="187" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
