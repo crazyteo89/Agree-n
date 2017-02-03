@@ -55,7 +55,6 @@
         <!--Check For Bill View Controller-->
         <scene sceneID="QmW-Ao-gSS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="N4D-Zt-NjV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="lXk-9O-CP7" customClass="CheckForBillViewController" customModule="Agree_n" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FDs-w4-iUg"/>
@@ -65,27 +64,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="925-FG-5NC">
-                                <rect key="frame" x="42" y="87" width="90" height="90"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="925-FG-5NC">
+                                <rect key="frame" x="16" y="87" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="RQs-cZ-Xlw">
-                                <rect key="frame" x="220" y="164" width="100" height="100"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="RQs-cZ-Xlw">
+                                <rect key="frame" x="16" y="245" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="X3m-ca-nwk">
-                                <rect key="frame" x="220" y="346" width="140" height="140"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="X3m-ca-nwk">
+                                <rect key="frame" x="16" y="331" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="kCQ-33-7n9">
-                                <rect key="frame" x="48" y="464" width="160" height="159"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="kCQ-33-7n9">
+                                <rect key="frame" x="16" y="414" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsc-u8-cyz">
-                                <rect key="frame" x="232" y="177" width="77" height="74"/>
+                                <rect key="frame" x="22" y="164" width="149" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <state key="normal" title="Scontrino: 2">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="          20/01/16">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -93,49 +92,51 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="330-Mq-meB">
-                                <rect key="frame" x="220" y="356" width="113" height="121"/>
+                                <rect key="frame" x="22" y="337" width="149" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scontrino: 4">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="           23/01/16">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="FqW-Xb-hsG"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="GcB-8Q-wJE">
-                                <rect key="frame" x="42" y="247" width="120" height="120"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="GcB-8Q-wJE">
+                                <rect key="frame" x="16" y="164" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUz-w6-1PE">
-                                <rect key="frame" x="48" y="269" width="84" height="76"/>
+                                <rect key="frame" x="22" y="237" width="146" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <state key="normal" title="Scontrino: 3">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="           21/01/16">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="sHs-XD-w7E"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2E-5C-IRG">
-                                <rect key="frame" x="48" y="464" width="142" height="143"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scontrino: 5">
-                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="UbP-fl-xGc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ee-Xo-htv">
-                                <rect key="frame" x="48" y="87" width="78" height="81"/>
+                                <rect key="frame" x="22" y="95" width="148" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <state key="normal" title="Scontrino: 1">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="          17/01/16">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="DVS-gE-cNz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2E-5C-IRG">
+                                <rect key="frame" x="22" y="423" width="145" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="            27/01/16">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendBillForCheck:" destination="lXk-9O-CP7" eventType="touchUpInside" id="UbP-fl-xGc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -148,6 +149,7 @@
                         <segue destination="BqG-Iz-UaA" kind="show" identifier="CheckForBill" id="BcK-6g-M7p"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N4D-Zt-NjV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2461.5999999999999" y="1674.5127436281859"/>
         </scene>
@@ -791,6 +793,7 @@
     </scenes>
     <resources>
         <image name="ModelloProfilo" width="304" height="303"/>
+        <image name="QR_code" width="400" height="400"/>
         <image name="albero" width="374" height="327"/>
         <image name="book" width="32" height="32"/>
         <image name="health" width="256" height="256"/>
@@ -798,7 +801,6 @@
         <image name="listaProfilo2" width="516" height="321"/>
         <image name="percentuale" width="265" height="95"/>
         <image name="polmoniforesta" width="710" height="444"/>
-        <image name="postit" width="1280" height="1266"/>
         <image name="scan" width="32" height="32"/>
         <image name="user" width="32" height="32"/>
         <image name="zampa" width="512" height="512"/>
