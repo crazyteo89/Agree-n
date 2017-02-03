@@ -17,6 +17,7 @@ class AfterScannedViewController: UITableViewController {
     var billScanned = "no"
     
     var productName = [String]()
+    var productDescription = [String]()
     var productPrice = [String]()
     var productRating = [String]()
     
@@ -35,6 +36,7 @@ class AfterScannedViewController: UITableViewController {
             for value in productList! {
                 if value.AllDetail.productBill! == "123456789123456789" {
                     self.productName += [value.AllDetail.productName!]
+                    self.productDescription += [value.AllDetail.productDescription!]
                     self.productRating += [value.AllDetail.productRating!]
                     self.productPrice += [value.AllDetail.productPrice!]
                     self.productImage += [value.AllDetail.productImage!]
@@ -59,7 +61,7 @@ class AfterScannedViewController: UITableViewController {
             totalBillRating += (Float)(value)
         }
         
-        self.priceToShow.text = (String)(totalBillPrice)
+        self.priceToShow.text = (String)(totalBillPrice) + "€"
         
         let formatter = NumberFormatter()
         formatter.numberStyle = .decimal
@@ -112,6 +114,7 @@ class AfterScannedViewController: UITableViewController {
                 destinationController.nameTaken = self.productName[indexPath.row]
                 destinationController.imageTaken = self.productImage[indexPath.row]
                 destinationController.ratingTaken = self.productRating[indexPath.row]
+                destinationController.descriptionTaken = self.productDescription[indexPath.row]
             }
         }
     }
