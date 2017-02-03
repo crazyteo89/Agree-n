@@ -12,6 +12,10 @@ class ProductDetailsViewController: UITableViewController {
     @IBOutlet var productImage: UIImageView!
     @IBOutlet var productName: UILabel!
     @IBOutlet var productRating: UILabel!
+    @IBOutlet var alternativeImage1: UIImageView!
+    @IBOutlet var alternativeImage2: UIImageView!
+    @IBOutlet var alternativeTitle1: UILabel!
+    @IBOutlet var alternativeTitle2: UILabel!
     
     var ratingTaken = ""
     var imageTaken = UIImage()
@@ -41,6 +45,22 @@ class ProductDetailsViewController: UITableViewController {
             self.productRating.textColor = UIColor.init(red: 230.0/255.0, green: 230.0/255.0, blue: 0.0/255.0, alpha: 1.0)
         default:
             self.productRating.textColor = UIColor.init(red: 87.0/255.0, green: 175.0/255.0, blue: 0.0/255.0, alpha: 1.0)
+        }
+        
+        self.valuateAlternative(nameTaken)
+    }
+    
+    func valuateAlternative (_ name: String) {
+        if name == "Uova AMADORI" {
+            self.alternativeTitle1.text = "Grano saraceno ECOR"
+            self.alternativeImage1.image = UIImage(named: "grano_saraceno_ecor")
+            self.alternativeTitle2.text = "Noci sorrento FATINA"
+            self.alternativeImage2.image = UIImage(named: "noci_fatina")
+        } else if name == "Arrosto di vitello" {
+            self.alternativeTitle1.text = "Tofu bio CEREAL BIO"
+            self.alternativeImage1.image = UIImage(named: "tofu_bio_cerealbio")
+            self.alternativeTitle2.text = "Lenticchie SELECT"
+            self.alternativeImage2.image = UIImage(named: "lenticchie_select")
         }
     }
 
