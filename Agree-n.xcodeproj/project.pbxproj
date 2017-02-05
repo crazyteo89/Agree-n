@@ -32,6 +32,8 @@
 		D388A8111E4405590079D079 /* HealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388A8101E4405590079D079 /* HealthTableViewCell.swift */; };
 		ED4B8B891E4390E600D8BE80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4B8B881E4390E600D8BE80 /* Main.storyboard */; };
 		FFD5D2A81E40E17100A96973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD5D2A71E40E17100A96973 /* LaunchScreen.storyboard */; };
+		FFDB70021E46AE9B00B6BA51 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDB70011E46AE9B00B6BA51 /* BillTableViewCell.swift */; };
+		FFDB70041E46B2E400B6BA51 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDB70031E46B2E400B6BA51 /* HistoryTableViewController.swift */; };
 		FFF1A7781E3F447500A2FFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A7771E3F447500A2FFEE /* AppDelegate.swift */; };
 		FFF1A77A1E3F447500A2FFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A7791E3F447500A2FFEE /* ViewController.swift */; };
 		FFF1A77F1E3F447500A2FFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF1A77E1E3F447500A2FFEE /* Assets.xcassets */; };
@@ -63,6 +65,8 @@
 		D388A8101E4405590079D079 /* HealthTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthTableViewCell.swift; sourceTree = "<group>"; };
 		ED4B8B881E4390E600D8BE80 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FFD5D2A71E40E17100A96973 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDB70011E46AE9B00B6BA51 /* BillTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
+		FFDB70031E46B2E400B6BA51 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		FFF1A7741E3F447500A2FFEE /* Agree-n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agree-n.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF1A7771E3F447500A2FFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF1A7791E3F447500A2FFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				D388A80C1E4400AD0079D079 /* AnimalTableViewCell.swift */,
 				D388A80E1E44053E0079D079 /* HealthTableViewController.swift */,
 				D388A8101E4405590079D079 /* HealthTableViewCell.swift */,
+				FFDB70031E46B2E400B6BA51 /* HistoryTableViewController.swift */,
+				FFDB70011E46AE9B00B6BA51 /* BillTableViewCell.swift */,
 				CF825F5A1E44C6D100649FFB /* ProductDetailsViewController.swift */,
 				CF825F5C1E44C86C00649FFB /* ProductDetailsViewCell.swift */,
 			);
@@ -211,6 +217,7 @@
 				D388A8071E43F0D10079D079 /* EnvironmentTableViewController.swift in Sources */,
 				CF1401B01E4355C300E5C68A /* CheckForBillViewController.swift in Sources */,
 				CF1401AA1E434EB200E5C68A /* LoginController.swift in Sources */,
+				FFDB70041E46B2E400B6BA51 /* HistoryTableViewController.swift in Sources */,
 				CF1401A71E434EB200E5C68A /* Extensions.swift in Sources */,
 				FFF1A77A1E3F447500A2FFEE /* ViewController.swift in Sources */,
 				CF1401AC1E434EB200E5C68A /* Page.swift in Sources */,
@@ -218,6 +225,7 @@
 				CF1401A81E434EB200E5C68A /* HomeController.swift in Sources */,
 				CF0AE9811E40C1B700F226AE /* GettingQRCodeViewController.swift in Sources */,
 				CF1401A91E434EB200E5C68A /* LoginCell.swift in Sources */,
+				FFDB70021E46AE9B00B6BA51 /* BillTableViewCell.swift in Sources */,
 				D388A80B1E44009C0079D079 /* AnimalTableViewController.swift in Sources */,
 				CF0AE9831E40C56800F226AE /* AfterScannedViewController.swift in Sources */,
 				CF1401AE1E434EB200E5C68A /* UserDefaults+helpers.swift in Sources */,

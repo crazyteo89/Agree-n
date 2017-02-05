@@ -65,24 +65,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tableView" translatesAutoresizingMaskIntoConstraints="NO" id="AFR-OG-5CQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="925-FG-5NC">
-                                <rect key="frame" x="16" y="87" width="60" height="60"/>
+                                <rect key="frame" x="16" y="72" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="RQs-cZ-Xlw">
-                                <rect key="frame" x="16" y="245" width="60" height="60"/>
+                                <rect key="frame" x="16" y="208" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="X3m-ca-nwk">
-                                <rect key="frame" x="16" y="331" width="60" height="60"/>
+                                <rect key="frame" x="16" y="276" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="kCQ-33-7n9">
-                                <rect key="frame" x="16" y="414" width="60" height="60"/>
+                                <rect key="frame" x="16" y="344" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsc-u8-cyz">
-                                <rect key="frame" x="22" y="164" width="149" height="60"/>
+                                <rect key="frame" x="22" y="140" width="149" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="          20/01/16">
@@ -93,7 +97,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="330-Mq-meB">
-                                <rect key="frame" x="22" y="337" width="149" height="48"/>
+                                <rect key="frame" x="21" y="282" width="149" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="           23/01/16">
@@ -104,11 +108,11 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QR_code" translatesAutoresizingMaskIntoConstraints="NO" id="GcB-8Q-wJE">
-                                <rect key="frame" x="16" y="164" width="60" height="60"/>
+                                <rect key="frame" x="16" y="140" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUz-w6-1PE">
-                                <rect key="frame" x="22" y="237" width="146" height="76"/>
+                                <rect key="frame" x="21" y="200" width="146" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="           21/01/16">
@@ -119,7 +123,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ee-Xo-htv">
-                                <rect key="frame" x="22" y="95" width="148" height="44"/>
+                                <rect key="frame" x="23" y="80" width="148" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="          17/01/16">
@@ -130,7 +134,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2E-5C-IRG">
-                                <rect key="frame" x="22" y="423" width="145" height="42"/>
+                                <rect key="frame" x="21" y="353" width="145" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="            27/01/16">
@@ -152,7 +156,54 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N4D-Zt-NjV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2461.5999999999999" y="1674.5127436281859"/>
+            <point key="canvasLocation" x="2641" y="1676"/>
+        </scene>
+        <!--History Table View Controller-->
+        <scene sceneID="3ja-bU-gCH">
+            <objects>
+                <tableViewController id="eI4-zv-3iP" customClass="HistoryTableViewController" customModule="Agree_n" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="68" sectionHeaderHeight="28" sectionFooterHeight="28" id="bPZ-2w-k8u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="billCell" rowHeight="68" id="5xW-be-k5R" customClass="BillTableViewCell" customModule="Agree_n" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="68"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5xW-be-k5R" id="l9j-Gx-eKN">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLw-GC-Bfn">
+                                            <rect key="frame" x="8" y="0.0" width="79" height="67"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDZ-lC-7fh">
+                                            <rect key="frame" x="109" y="15" width="59" height="36"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="billImage" destination="aLw-GC-Bfn" id="wrw-Yo-AYt"/>
+                                    <outlet property="billLabel" destination="eDZ-lC-7fh" id="inm-e3-Gbv"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eI4-zv-3iP" id="OWl-hn-j2p"/>
+                            <outlet property="delegate" destination="eI4-zv-3iP" id="dII-m7-mM9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Ceo-Mn-fYN"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QmP-Q2-Zk9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3462" y="1676"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F4a-7U-X8s">
@@ -278,7 +329,7 @@
                                             </subviews>
                                         </stackView>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWz-zN-L3W">
-                                            <rect key="frame" x="8" y="0.0" width="177" height="96"/>
+                                            <rect key="frame" x="8" y="0.0" width="359" height="96"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <connections>
                                                 <segue destination="l3x-FM-DTf" kind="show" id="AjR-Qp-a8h"/>
@@ -311,6 +362,38 @@
             <point key="canvasLocation" x="524" y="2544.3778110944531"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="4Jc-ef-KAz">
+            <objects>
+                <viewController id="QWh-sO-5m4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ghl-jY-xVP"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rdi-HV-vOE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v1J-Tl-feA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="obeso" translatesAutoresizingMaskIntoConstraints="NO" id="Mgx-Cf-Ple">
+                                <rect key="frame" x="0.0" y="72" width="375" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oKj-Ev-May">
+                                <rect key="frame" x="0.0" y="346" width="359" height="367"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">L'obesità è una delle principali cause di morte prevenibile a livello mondiale.[8][53][54] Alcuni studi statunitensi ed europei, effettuati su un campione a larga scala, hanno dimostrato che il rischio di mortalità è più basso nei non fumatori con IMC compreso tra i 20 e i 25 kg/m2,[52][55] così come nei fumatori con IMC compreso fra i 24 e i 27 kg/m2.[56][57] Fra le donne, a un IMC superiore a 32 kg/m2 è stato associato un tasso di mortalità raddoppiato nell'arco di un periodo di 16 anni.[58] Negli Stati Uniti l'obesità è stimata come causa di un numero di decessi compreso fra gli 111 909 e i 365 000 all'anno,[2][54] mentre nell'Unione europea un milione di decessi (pari al 7,7% del totale) sono attribuiti al peso in eccesso.[32][59] In media, l'obesità abbassa l'aspettativa di vita di circa sei-sette anni:[2][60] in particolare, l'aspettativa di vita diminuisce di due-quattro anni in caso di obesità moderata (corrispondente a un IMC compreso fra 30 e 35 kg/m2),[55] mentre l'obesità grave (IMC maggiore di 40 kg/m2) riduce l'aspettativa di vita di dieci anni.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zF4-3I-vzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-220" y="3289.2053973013494"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="zg9-Hj-P9E">
             <objects>
                 <viewController id="l3x-FM-DTf" sceneMemberID="viewController">
@@ -322,10 +405,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ahw-MT-pU6">
-                                <rect key="frame" x="0.0" y="64" width="375" height="319"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="globalWarming" translatesAutoresizingMaskIntoConstraints="NO" id="ahw-MT-pU6">
+                                <rect key="frame" x="0.0" y="64" width="375" height="276"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rH5-pX-sGj">
+                                <rect key="frame" x="0.0" y="348" width="375" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Per riscaldamento globale s'intende invece un fenomeno di incremento delle temperature medie della superficie della Terra non riconducibile a cause naturali e riscontrato a partire dall'inizio del XX secolo. Secondo il quarto rapporto del Intergovernmental Panel on Climate Change (IPCC) del 2007 la temperatura media della superficie terrestre è aumentata di 0.74 ± 0.18 °C durante il XX secolo.[3] La maggior parte degli incrementi di temperatura sono stati osservati a partire dalla metà del XX secolo con la distribuzione del riscaldamento climatico che non è uniforme su tutto il globo, ma presenta un picco massimo nell'emisfero settentrionale a partire dalle medie ed alte latitudini fino al polo nord, più accentuato sulla terraferma che sui mari e oceani (es. territorio siberiano e canadese) ed un livello minore nell'emisfero sud, circondato dagli oceani, con la zona del polo sud con una tendenza opposta al raffreddamento.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -355,7 +446,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JR8-jU-sUl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4836" y="1674.5127436281859"/>
+            <point key="canvasLocation" x="7653.6000000000004" y="1674.5127436281859"/>
         </scene>
         <!--After Scanned View Controller-->
         <scene sceneID="WYS-WH-VXs">
@@ -392,13 +483,6 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBe-Ts-ft5">
-                                    <rect key="frame" x="309" y="8" width="49" height="21"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQg-T6-QuU">
                                     <rect key="frame" x="293" y="27" width="74" height="31"/>
                                     <constraints>
@@ -406,6 +490,13 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                     <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBe-Ts-ft5">
+                                    <rect key="frame" x="306" y="15" width="49" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
@@ -673,8 +764,8 @@
                     <connections>
                         <segue destination="zRt-Zi-1BF" kind="relationship" relationship="viewControllers" id="oMT-tI-LHd"/>
                         <segue destination="gUD-rG-S7f" kind="relationship" relationship="viewControllers" id="mXv-vH-cRm"/>
-                        <segue destination="zqE-DN-ddR" kind="relationship" relationship="viewControllers" id="VFO-dy-vlw"/>
-                        <segue destination="iv1-bK-dBI" kind="relationship" relationship="viewControllers" id="FGS-Vw-VxI"/>
+                        <segue destination="hKD-VJ-CNK" kind="relationship" relationship="viewControllers" id="xwO-Ry-Ngt"/>
+                        <segue destination="iv1-bK-dBI" kind="relationship" relationship="viewControllers" id="AHJ-ZP-oVG"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aoW-sQ-bVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -725,25 +816,6 @@
             </objects>
             <point key="canvasLocation" x="-356" y="1677"/>
         </scene>
-        <!--History-->
-        <scene sceneID="ROC-FZ-fNI">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zqE-DN-ddR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="History" image="book" id="ZYo-d8-jWp"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9s2-7L-ruM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="lXk-9O-CP7" kind="relationship" relationship="rootViewController" id="bAi-mO-qPy"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="u7n-A1-RGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1678" y="1676"/>
-        </scene>
         <!--Scan-->
         <scene sceneID="HXa-ga-UmA">
             <objects>
@@ -767,7 +839,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ff9-82-eSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3896.8000000000002" y="1674.5127436281859"/>
+            <point key="canvasLocation" x="6714.3999999999996" y="1674.5127436281859"/>
         </scene>
         <!--Animal Table View Controller-->
         <scene sceneID="Y4H-bd-Iyg">
@@ -873,6 +945,13 @@
                                                 </label>
                                             </subviews>
                                         </stackView>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaB-3D-Qjf">
+                                            <rect key="frame" x="8" y="0.0" width="359" height="102"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <segue destination="QWh-sO-5m4" kind="show" id="cNi-hI-8Cb"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Hkm-ci-slb" firstAttribute="centerY" secondItem="JJb-qD-CJ3" secondAttribute="centerY" id="FVy-74-6fO"/>
@@ -897,7 +976,26 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FAk-GX-RE9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-218" y="2544"/>
+            <point key="canvasLocation" x="-218.40000000000001" y="2543.4782608695655"/>
+        </scene>
+        <!--History-->
+        <scene sceneID="KrB-6i-fzH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hKD-VJ-CNK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="History" image="book" selectedImage="book" id="Kx0-w9-Qbb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="T1K-2c-ncq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lXk-9O-CP7" kind="relationship" relationship="rootViewController" id="eG9-cL-0qC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sgc-o7-JW3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1818" y="1675"/>
         </scene>
     </scenes>
     <resources>
@@ -905,12 +1003,15 @@
         <image name="QR_code" width="400" height="400"/>
         <image name="albero" width="374" height="327"/>
         <image name="book" width="32" height="32"/>
+        <image name="globalWarming" width="1920" height="1200"/>
         <image name="health" width="256" height="256"/>
         <image name="info" width="32" height="32"/>
         <image name="listaProfilo2" width="384" height="321"/>
+        <image name="obeso" width="2274" height="1484"/>
         <image name="percentuale" width="265" height="95"/>
         <image name="polmoniforesta" width="710" height="444"/>
         <image name="scan" width="32" height="32"/>
+        <image name="tableView" width="750" height="1104"/>
         <image name="user" width="32" height="32"/>
         <image name="zampa" width="512" height="512"/>
     </resources>

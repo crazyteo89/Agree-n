@@ -1,18 +1,18 @@
 //
-//  HealthTableViewController.swift
+//  HistoryTableViewController.swift
 //  Agree-n
 //
-//  Created by Luca Kesler on 03/02/2017.
+//  Created by Matteo Palmieri on 05/02/17.
 //  Copyright © 2017 Matteo Palmieri. All rights reserved.
 //
 
 import UIKit
 
-class HealthTableViewController: UITableViewController {
+class HistoryTableViewController: UITableViewController {
     
-    var HealthNames = ["Obesity", "Harmful Foods"]
-    var HealthDescription = ["Fat Accumulation ", "Carcinogenic"]
-    var HealthImages = ["pancia.jpg", "cibiDannosi.jpg"]
+    var BillID = ["1", "2"]
+    var BillImages = ["QrCode.jpg", "QrCode.jpg"]
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,20 @@ class HealthTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellIdentifier = "billCell"
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! BillTableViewCell
+        
+        // Configure the cell...
+        //cell.textLabel?.text = envNames[indexPath.row]
+        //cell.imageView?.image = UIImage(named: "livestock.jpg")
+        cell.billLabel.text = BillID[indexPath.row]
+        cell.billImage.image = UIImage(named: BillImages[indexPath.row])
+        
+        return cell
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -33,27 +47,23 @@ class HealthTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return HealthNames.count
+        return 0
     }
 
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cellIdentifier = "HealthContent"
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! HealthTableViewCell
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
         // Configure the cell...
-        //cell.textLabel?.text = envNames[indexPath.row]
-        //cell.imageView?.image = UIImage(named: "livestock.jpg")
-        cell.HealthTitleLabel.text = HealthNames[indexPath.row]
-        cell.HealthSubTitleLabel.text = HealthDescription[indexPath.row]
-        cell.HealthThumbnailImage.image = UIImage(named: HealthImages[indexPath.row])
-        
+
         return cell
     }
+    */
 
     /*
     // Override to support conditional editing of the table view.

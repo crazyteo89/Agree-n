@@ -10,9 +10,9 @@ import UIKit
 
 class AnimalTableViewController: UITableViewController {
     
-    var animalNames = ["Global Warming", "Water Scarcity"]
-    var animalDescription = ["Livestock ", "Intensive Breeding"]
-    var animalImages = ["livestock.jpg", "waterScarcity.jpg"]
+    var animalNames = ["Contamination of the seas", "Rhino Horn"]
+    var animalDescription = ["Oil", "Illegal Hunting"]
+    var animalImages = ["gabbiano.jpg", "rinoceronte.jpg"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
