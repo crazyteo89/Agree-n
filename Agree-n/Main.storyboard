@@ -26,6 +26,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ModelloProfilo" translatesAutoresizingMaskIntoConstraints="NO" id="l9Y-CG-tTH">
                                 <rect key="frame" x="95" y="125" width="184" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="percentuale" translatesAutoresizingMaskIntoConstraints="NO" id="GWk-Zm-n4T">
                                 <rect key="frame" x="64" y="317" width="125" height="56"/>
@@ -44,12 +45,24 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="gx9-4b-VW6" appends="YES" id="HAI-rF-EEW"/>
+                        </connections>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="fQM-Cf-Mdw"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="swipeNext" destination="gx9-4b-VW6" id="w6V-Zs-232"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="03j-jH-fSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="gx9-4b-VW6">
+                    <connections>
+                        <segue destination="6hY-ES-mD6" kind="show" id="MXI-Ug-kuU"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1744.8" y="819.94002998500753"/>
         </scene>
@@ -171,7 +184,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="68"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5xW-be-k5R" id="l9j-Gx-eKN">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="67.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLw-GC-Bfn">
@@ -302,7 +315,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vIS-EN-zx6" id="0Tz-Mt-uJ1">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="104.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lGn-f5-lbP">
@@ -381,7 +394,7 @@
                                 <rect key="frame" x="0.0" y="346" width="359" height="367"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">L'obesità è una delle principali cause di morte prevenibile a livello mondiale.[8][53][54] Alcuni studi statunitensi ed europei, effettuati su un campione a larga scala, hanno dimostrato che il rischio di mortalità è più basso nei non fumatori con IMC compreso tra i 20 e i 25 kg/m2,[52][55] così come nei fumatori con IMC compreso fra i 24 e i 27 kg/m2.[56][57] Fra le donne, a un IMC superiore a 32 kg/m2 è stato associato un tasso di mortalità raddoppiato nell'arco di un periodo di 16 anni.[58] Negli Stati Uniti l'obesità è stimata come causa di un numero di decessi compreso fra gli 111 909 e i 365 000 all'anno,[2][54] mentre nell'Unione europea un milione di decessi (pari al 7,7% del totale) sono attribuiti al peso in eccesso.[32][59] In media, l'obesità abbassa l'aspettativa di vita di circa sei-sette anni:[2][60] in particolare, l'aspettativa di vita diminuisce di due-quattro anni in caso di obesità moderata (corrispondente a un IMC compreso fra 30 e 35 kg/m2),[55] mentre l'obesità grave (IMC maggiore di 40 kg/m2) riduce l'aspettativa di vita di dieci anni.</mutableString>
+                                <string key="text">L'obesità è una delle principali cause di morte prevenibile a livello mondiale.[8][53][54] Alcuni studi statunitensi ed europei, effettuati su un campione a larga scala, hanno dimostrato che il rischio di mortalità è più basso nei non fumatori con IMC compreso tra i 20 e i 25 kg/m2,[52][55] così come nei fumatori con IMC compreso fra i 24 e i 27 kg/m2.[56][57] Fra le donne, a un IMC superiore a 32 kg/m2 è stato associato un tasso di mortalità raddoppiato nell'arco di un periodo di 16 anni.[58] Negli Stati Uniti l'obesità è stimata come causa di un numero di decessi compreso fra gli 111 909 e i 365 000 all'anno,[2][54] mentre nell'Unione europea un milione di decessi (pari al 7,7% del totale) sono attribuiti al peso in eccesso.[32][59] In media, l'obesità abbassa l'aspettativa di vita di circa sei-sette anni:[2][60] in particolare, l'aspettativa di vita diminuisce di due-quattro anni in caso di obesità moderata (corrispondente a un IMC compreso fra 30 e 35 kg/m2),[55] mentre l'obesità grave (IMC maggiore di 40 kg/m2) riduce l'aspettativa di vita di dieci anni.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -446,7 +459,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JR8-jU-sUl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7653.6000000000004" y="1674.5127436281859"/>
+            <point key="canvasLocation" x="5638" y="1676"/>
         </scene>
         <!--After Scanned View Controller-->
         <scene sceneID="WYS-WH-VXs">
@@ -514,7 +527,7 @@
                                 <rect key="frame" x="0.0" y="148" width="375" height="110"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lbk-aT-CCh" id="KX5-ha-a20">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="109.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W3p-tR-MAC">
@@ -695,7 +708,7 @@
                                 <rect key="frame" x="0.0" y="355" width="375" height="30"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GKF-mM-QK1" id="BYo-iV-U9E">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="29"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="29.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57p-zp-Moi">
@@ -775,7 +788,7 @@
         <!--Profile-->
         <scene sceneID="esY-6T-Fjp">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zRt-Zi-1BF" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="crossDissolve" id="zRt-Zi-1BF" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="user" id="2AD-dv-g0g">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
@@ -839,7 +852,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ff9-82-eSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6714.3999999999996" y="1674.5127436281859"/>
+            <point key="canvasLocation" x="4822" y="1676"/>
         </scene>
         <!--Animal Table View Controller-->
         <scene sceneID="Y4H-bd-Iyg">
@@ -854,7 +867,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="chk-mP-goL" id="nGg-i8-gXm">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="104.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2RQ-Az-UHa">
@@ -919,7 +932,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NEZ-wl-kVS" id="2Hu-wW-yhn">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="104.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hkm-ci-slb">
@@ -1017,6 +1030,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="BcK-6g-M7p"/>
+        <segue reference="dK5-xA-ibR"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.27261349558830261" green="0.74012607336044312" blue="0.1639619767665863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

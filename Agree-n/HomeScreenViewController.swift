@@ -10,6 +10,8 @@ import UIKit
 
 class HomeScreenViewController: UIViewController {
     
+    @IBOutlet var swipeNext: UISwipeGestureRecognizer!
+    
     var userLogged = "user"
 
     override func viewDidLoad() {

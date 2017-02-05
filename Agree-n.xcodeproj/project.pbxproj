@@ -31,6 +31,7 @@
 		D388A80F1E44053E0079D079 /* HealthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388A80E1E44053E0079D079 /* HealthTableViewController.swift */; };
 		D388A8111E4405590079D079 /* HealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388A8101E4405590079D079 /* HealthTableViewCell.swift */; };
 		ED4B8B891E4390E600D8BE80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4B8B881E4390E600D8BE80 /* Main.storyboard */; };
+		FF1AD6C81E47C66B00092911 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1AD6C71E47C66B00092911 /* MoreViewController.swift */; };
 		FFD5D2A81E40E17100A96973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD5D2A71E40E17100A96973 /* LaunchScreen.storyboard */; };
 		FFDB70021E46AE9B00B6BA51 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDB70011E46AE9B00B6BA51 /* BillTableViewCell.swift */; };
 		FFDB70041E46B2E400B6BA51 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDB70031E46B2E400B6BA51 /* HistoryTableViewController.swift */; };
@@ -64,6 +65,7 @@
 		D388A80E1E44053E0079D079 /* HealthTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthTableViewController.swift; sourceTree = "<group>"; };
 		D388A8101E4405590079D079 /* HealthTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthTableViewCell.swift; sourceTree = "<group>"; };
 		ED4B8B881E4390E600D8BE80 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FF1AD6C71E47C66B00092911 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		FFD5D2A71E40E17100A96973 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFDB70011E46AE9B00B6BA51 /* BillTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
 		FFDB70031E46B2E400B6BA51 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				CF0AE9861E40C7F800F226AE /* BillDetail.swift */,
 				CF6378361E4249CD005ADE65 /* UserDetail.swift */,
 				CF1401AF1E4355C300E5C68A /* CheckForBillViewController.swift */,
+				FF1AD6C71E47C66B00092911 /* MoreViewController.swift */,
 				D388A8061E43F0D10079D079 /* EnvironmentTableViewController.swift */,
 				D388A8081E43F59D0079D079 /* EnvironmentTableViewCell.swift */,
 				D388A80A1E44009C0079D079 /* AnimalTableViewController.swift */,
@@ -233,6 +236,7 @@
 				CF825F5B1E44C6D100649FFB /* ProductDetailsViewController.swift in Sources */,
 				D388A80D1E4400AD0079D079 /* AnimalTableViewCell.swift in Sources */,
 				D388A8111E4405590079D079 /* HealthTableViewCell.swift in Sources */,
+				FF1AD6C81E47C66B00092911 /* MoreViewController.swift in Sources */,
 				CF1401AD1E434EB200E5C68A /* PageCell.swift in Sources */,
 				CF6378371E4249CD005ADE65 /* UserDetail.swift in Sources */,
 				CF1401AB1E434EB200E5C68A /* MainNavigationController.swift in Sources */,
