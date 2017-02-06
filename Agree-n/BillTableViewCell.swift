@@ -11,7 +11,7 @@ import UIKit
 class BillTableViewCell: UITableViewCell {
     
     
-    @IBOutlet weak var billLabel: UILabel!
+    @IBOutlet var billLabel: UILabel!
     @IBOutlet var billImage: UIImageView!
 
     override func awakeFromNib() {

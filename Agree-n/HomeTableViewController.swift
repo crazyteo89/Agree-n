@@ -1,33 +1,14 @@
 //
-//  HistoryTableViewController.swift
+//  HomeTableViewController.swift
 //  Agree-n
 //
-//  Created by Matteo Palmieri on 05/02/17.
+//  Created by Matteo Palmieri on 06/02/17.
 //  Copyright © 2017 Matteo Palmieri. All rights reserved.
 //
 
 import UIKit
 
-class HistoryTableViewController: UITableViewController {
-    
-    var BillID = ["17/01/2017","20/01/2017","21/01/2017","23/01/2017","26/01/2017","17/01/2017", "20/01/2017","21/01/2017","23/01/2017","26/01/2017"]
-    var BillImages = ["QrCode.jpg","QrCode.jpg","QrCode.jpg","QrCode.jpg","QrCode.jpg","QrCode.jpg", "QrCode.jpg","QrCode.jpg","QrCode.jpg","QrCode.jpg"]
-    var billToSend = "123456789123456789"
-    
-    /*
-    @IBAction func segueBill(_ sender: UIButton) {
-        self.billToSend = "123456789123456789"
-        self.performSegue(withIdentifier: "CheckForBill" , sender: sender)
-    }
- */
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "CheckForBill" {
-            let destinationController = segue.destination as! AfterScannedViewController
-            destinationController.billScanned = self.billToSend
-        }
-    }
- 
+class HomeTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,35 +19,22 @@ class HistoryTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     // MARK: - Table view data source
-    
+
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
-    
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return BillID.count
-    }
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cellIdentifier = "billCell"
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! BillTableViewCell
-        
-        // Configure the cell...
-        //cell.textLabel?.text = envNames[indexPath.row]
-        //cell.imageView?.image = UIImage(named: "livestock.jpg")
-        cell.billLabel.text = BillID[indexPath.row]
-        cell.billImage.image = UIImage(named: BillImages[indexPath.row])
-        
-        return cell
+        return 0
     }
 
     /*

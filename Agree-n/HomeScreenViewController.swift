@@ -12,6 +12,9 @@ class HomeScreenViewController: UIViewController {
     
     @IBOutlet var swipeNext: UISwipeGestureRecognizer!
     
+    var dato1 = ["17/01/2017","20/01/2017","21/01/2017","23/01/2017","26/01/2017","17/01/2017", "20/01/2017","21/01/2017","23/01/2017","26/01/2017"]
+    var dato2 = ["QrCode.jpg","QrCode.jpg","QrCode.jpg","QrCode.jpg","QrCode.jpg","QrCode.jpg", "QrCode.jpg","QrCode.jpg","QrCode.jpg","QrCode.jpg"]
+    
     var userLogged = "user"
 
     override func viewDidLoad() {
@@ -84,7 +87,7 @@ class HomeScreenViewController: UIViewController {
         return NSKeyedUnarchiver.unarchiveObject(withFile: BillDetail.archiveURL.path) as? [BillDetail]
     }
     
-
+    
     /*
     // MARK: - Navigation
 
